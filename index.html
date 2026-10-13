@@ -1,0 +1,179 @@
+<!--
+  PRIVACY POLICY PAGE — the URL both stores require. Intended host: GitHub Pages, as the only file in the
+  public repository Metoraf007/daddys-wallet-privacy (docs/policy/github-pages-handoff.md).
+
+  SCOPE: this is the FREE (local) tier's policy, and that is deliberate. D14.5 ships local-free
+  first, and for that tier the honest policy is short because we receive nothing. The connected
+  tier's policy is docs/policy/privacy-and-terms-draft.md and it publishes when that tier ships;
+  do not merge the two, and do not publish the connected tier's claims against an app that has
+  not got a server.
+
+  NOTHING HERE MAY OUTRUN THE BUILD. Every sentence is checkable against the app as shipped:
+  the guard client/check-external-hosts.mjs fails the build if any host but ours is named
+  anywhere a child's device could reach, and the free tier names none at all.
+
+  The verb is "does not send", never "cannot". It is one app update away from being able to, and
+  a policy that claims otherwise is claiming a property the build does not have. That correction
+  came from ADR-010 §7 after the Owner's own D14 wording overstated it.
+
+  Self-contained by design: no web font, no analytics, no CDN, no script. The same rule the app
+  lives under.
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daddy's Wallet — Privacy</title>
+<style>
+  :root{
+    --ink:#20291f; --ink-soft:#5b6455; --paper:#faf6ea; --paper-card:#fffdf6;
+    --cover:#2f4a3c; --gold:#a97a22; --line:#ddd0aa;
+  }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; padding:0; background:var(--paper); color:var(--ink);
+    font:16px/1.65 'Rubik',system-ui,-apple-system,'Segoe UI',sans-serif;
+  }
+  header{ background:var(--cover); color:var(--paper); padding:28px 20px; }
+  .wrap{ max-width:44rem; margin:0 auto; }
+  header h1{ margin:0; font-size:1.5rem; font-weight:700; }
+  header p{ margin:6px 0 0; opacity:.85; font-size:.95rem; }
+  main{ padding:0 20px 64px; }
+  section{ background:var(--paper-card); border:1px solid var(--line); border-radius:12px;
+           padding:22px 22px 4px; margin:26px 0; }
+  h2{ font-size:1.15rem; margin:0 0 14px; padding-bottom:8px; border-bottom:2px solid var(--gold);
+      display:inline-block; }
+  h3{ font-size:1rem; margin:22px 0 6px; }
+  p,li{ margin:10px 0; }
+  ul{ padding-inline-start:1.3em; }
+  .big{ font-size:1.05rem; font-weight:500; }
+  .muted{ color:var(--ink-soft); font-size:.9rem; }
+  .updated{ margin-top:34px; padding-top:16px; border-top:1px solid var(--line); }
+  a{ color:var(--gold); }
+  [lang="he"]{ direction:rtl; text-align:right; }
+  [lang="he"] ul{ padding-inline-start:1.3em; }
+  .langbar{ margin:0; padding:14px 20px; background:var(--cover); }
+  .langbar .wrap{ display:flex; gap:14px; font-size:.9rem; }
+  .langbar a{ color:var(--paper); text-decoration:underline; }
+</style>
+
+<header>
+  <div class="wrap">
+    <h1>Daddy's Wallet</h1>
+    <p>Privacy &amp; Terms · פרטיות ותנאי שימוש</p>
+  </div>
+</header>
+<nav class="langbar"><div class="wrap">
+  <a href="#he">עברית</a><a href="#en">English</a>
+</div></nav>
+
+<main class="wrap">
+
+<!-- ====================================================================== HEBREW -->
+<section id="he" lang="he">
+  <h2>פרטיות</h2>
+
+  <p class="big">האפליקציה לא שולחת אלינו את הפנקס. הרישומים נשמרים במכשיר שלכם.</p>
+
+  <p>אנחנו לא מקבלים את השמות של הילדים, לא את הסכומים, ולא שום דבר שרשמתם. אין חשבון, אין הרשמה,
+    ואין לנו מאגר של רישומי המשפחה.</p>
+
+  <h3>מה כן נכון לומר</h3>
+  <ul>
+    <li><strong>חנויות האפליקציות.</strong> אפל וגוגל מדווחות לנו כמה אנשים התקינו את האפליקציה, ושולחות
+      דיווח כשהיא קורסת. זה חלק מהפצה דרכן ואי אפשר לכבות את הכול. אנחנו לא משלבים את המידע הזה עם רישומי הפנקס של המשפחה.</li>
+    <li><strong>פנייה לתמיכה.</strong> אפשר לכתוב לנו לכתובת metoraf.berserk@gmail.com. אם תכתבו לנו, יהיו לנו כתובת המייל שלכם וכל מה שכתבתם. עדיף
+      לתאר מה קרה מאשר לשלוח צילום מסך של הדף של הילד.</li>
+  </ul>
+
+  <h3>אתר הפרטיות והתמיכה</h3>
+  <p>כשפותחים את הגרסה של העמוד הזה שמתארחת באינטרנט, GitHub, שמארח אותה בשירות GitHub Pages,
+    מקבל ומתעד מידע טכני על הבקשה, כגון כתובת ה־IP, מועד הביקור והעמוד המבוקש, לצורך מסירת העמוד
+    ואבטחת השירות. GitHub עשוי לעבד ולשמור את המידע הזה בארצות הברית. אין לנו גישה ליומנים האלה,
+    ואנחנו לא מפעילים שום כלי ניתוח נתונים. איך GitHub מטפל במידע הזה מתואר בהצהרת הפרטיות של GitHub.
+    זה נפרד מהפנקס באפליקציה: פתיחת האתר אינה שולחת אליו את רישומי המשפחה.</p>
+
+  <h3>גיבוי</h3>
+  <p>הפנקס יכול להיכלל בגיבוי הטלפון, אם הגיבוי מופעל וכולל את האפליקציה. גיבוי כזה נשמר אצל אפל או
+    גוגל, תחת החשבון שלכם — לא אצלנו. עצם התקנת האפליקציה לא מבטיחה שנוצר גיבוי.</p>
+  <p>אפשר גם לייצא קובץ גיבוי ולבחור היכן לשמור אותו. בלי סיסמה, כל מי שפותח את הקובץ יכול לקרוא את
+    הרישומים. סיסמה מצפינה את הקובץ, אבל אין לנו דרך לשחזר אותה אם נשכחה. פתיחת חלון השיתוף אינה
+    אישור שהקובץ נשמר — חשוב לוודא שהוא נמצא במקום שבחרתם.</p>
+  <p>אם הטלפון יאבד בלי גיבוי שמיש, <strong>הרישומים יאבדו איתו</strong>. אין לנו עותק לשחזר ממנו.
+    שחזור מקובץ מחזיר רק את מה שהיה בו כשהוא נוצר.</p>
+
+  <h3>מחיקה</h3>
+  <p>מחיקת האפליקציה ונתוניה מסירה את הפנקס מהמכשיר. עותקים שייצאתם וגיבויים בחשבון אפל או גוגל
+    מנוהלים בנפרד; מחיקת האפליקציה לא מוחקת אותם. אין לנו עותק של הפנקס שנוכל למחוק עבורכם.</p>
+
+  <h3>ילדים</h3>
+  <p>המוצר מיועד למשפחות. ילד לא נרשם לבד ואנחנו לא אוספים עליו דבר — אין כתובת מייל, אין תמונה, אין
+    תאריך לידה, אין מיקום. ההורה מנהל את הפנקס במכשיר שלו ויכול למחוק את נתוני האפליקציה. עותקי גיבוי וקבצים שייצא מנוהלים בנפרד, כמוסבר למעלה.</p>
+
+  <h3>כסף</h3>
+  <p><strong>שום כסף אמיתי לא זז.</strong> אין חיבור לבנק, אין כרטיס אשראי, אין העברות. זה רישום של
+    הכסף שההורה מחזיק בשביל הילדים — כמו פתק על המקרר, רק שהוא מחשב ריבית ושומר את היסטוריית השינויים.</p>
+
+  <p class="muted">הנוסח הזה מתייחס לגרסה החינמית, שבה הפנקס מנוהל במכשיר אחד. אם וכאשר תהיה גרסה
+    מחוברת עם חשבון ושרת, יפורסם לה נוסח נפרד ומפורט יותר לפני שהיא תהיה זמינה.</p>
+
+  <p class="updated muted">עודכן לאחרונה ב־13 באוקטובר 2026.</p>
+</section>
+
+<!-- ====================================================================== ENGLISH -->
+<section id="en" lang="en">
+  <h2>Privacy</h2>
+
+  <p class="big">The app does not send your ledger to us. Records are stored on your device.</p>
+
+  <p>We do not receive your children's names, your balances, or anything you write down. There is
+    no account or sign-up, and we do not hold a database of your family’s records.</p>
+
+  <h3>What is also true</h3>
+  <ul>
+    <li><strong>The app stores.</strong> Apple and Google tell us how many people installed the app
+      and send us a report when it crashes. That is part of distributing through them and we cannot
+      switch all of it off. We do not combine this information with family ledger records.</li>
+    <li><strong>Contacting support.</strong> You can email us at metoraf.berserk@gmail.com. If you email us we will have your address and whatever
+      you wrote. Please describe what happened rather than sending a picture of your child's page.</li>
+  </ul>
+
+  <h3>Privacy and support website</h3>
+  <p>When you open the hosted version of this page, its host, GitHub (through GitHub Pages), receives
+    and logs technical request information, such as your IP address, visit time and requested page, to
+    deliver the page and keep the service secure. GitHub may process and store this information in the
+    United States. We do not have access to these logs, and we do not set up any analytics. How GitHub
+    handles this information is described in the GitHub Privacy Statement. This is separate from the
+    app's ledger: opening the website does not send it your family's records.</p>
+
+  <h3>Backup</h3>
+  <p>The ledger can be included in your phone backup if backup is enabled and includes the app.
+    That copy is held by Apple or Google under your account, not by us. Installing the app does not
+    guarantee that a backup has been made.</p>
+  <p>You can also export a backup file and choose where to save it. Without a passphrase, anyone who
+    opens it can read the records. A passphrase encrypts the file, but we cannot recover a forgotten
+    passphrase. Opening the share sheet does not confirm that the file was saved; check the chosen
+    destination.</p>
+  <p>If the phone is lost without a usable backup, <strong>the records are lost with it</strong>.
+    We have no copy to restore. A file restores only the records it contained when it was created.</p>
+
+  <h3>Deleting</h3>
+  <p>Deleting the app and its data removes the ledger from the device. Exported files and backups
+    under your Apple or Google account are managed separately; deleting the app does not delete
+    those copies. We have no ledger copy to delete on your behalf.</p>
+
+  <h3>Children</h3>
+  <p>This is a product for families. A child never signs up alone and we collect nothing about them —
+    no email address, no photograph, no date of birth, no location. A parent manages the ledger on their device and can delete the app data. Backup copies and exported files are managed separately, as explained above.</p>
+
+  <h3>Money</h3>
+  <p><strong>No real money ever moves.</strong> There is no bank connection, no card, no transfer.
+    It is a record of the money a parent is holding for their children — like a note on the fridge,
+    with interest calculations and a history of changes.</p>
+
+  <p class="muted">This covers the free version, where the ledger is managed on one device. If and when a
+    connected version with an account and a server exists, it will have its own, longer policy
+    published before it is available.</p>
+
+  <p class="updated muted">Last updated 13 October 2026.</p>
+</section>
+
+</main>
