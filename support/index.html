@@ -1,0 +1,108 @@
+<!--
+  SUPPORT PAGE — the Support URL for both stores. Same rules as the privacy page next to it:
+  self-contained, no script, no web font, no analytics, nothing that calls out. Every answer must
+  match the app as shipped; button names are copied from client/js/dictionary.mjs.
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daddy's Wallet — Support</title>
+<style>
+  :root{
+    --ink:#20291f; --ink-soft:#5b6455; --paper:#faf6ea; --paper-card:#fffdf6;
+    --cover:#2f4a3c; --gold:#a97a22; --line:#ddd0aa;
+  }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; padding:0; background:var(--paper); color:var(--ink);
+    font:16px/1.65 'Rubik',system-ui,-apple-system,'Segoe UI',sans-serif;
+  }
+  header{ background:var(--cover); color:var(--paper); padding:28px 20px; }
+  .wrap{ max-width:44rem; margin:0 auto; }
+  header h1{ margin:0; font-size:1.5rem; font-weight:700; }
+  header p{ margin:6px 0 0; opacity:.85; font-size:.95rem; }
+  main{ padding:0 20px 64px; }
+  section{ background:var(--paper-card); border:1px solid var(--line); border-radius:12px;
+           padding:22px 22px 4px; margin:26px 0; }
+  h2{ font-size:1.15rem; margin:0 0 14px; padding-bottom:8px; border-bottom:2px solid var(--gold);
+      display:inline-block; }
+  h3{ font-size:1rem; margin:22px 0 6px; }
+  p,li{ margin:10px 0; }
+  ul{ padding-inline-start:1.3em; }
+  .big{ font-size:1.05rem; font-weight:500; }
+  .muted{ color:var(--ink-soft); font-size:.9rem; }
+  .updated{ margin-top:34px; padding-top:16px; border-top:1px solid var(--line); }
+  a{ color:var(--gold); }
+  [lang="he"]{ direction:rtl; text-align:right; }
+  [lang="he"] ul{ padding-inline-start:1.3em; }
+  .langbar{ margin:0; padding:14px 20px; background:var(--cover); }
+  .langbar .wrap{ display:flex; gap:14px; font-size:.9rem; }
+  .langbar a{ color:var(--paper); text-decoration:underline; }
+</style>
+
+<header>
+  <div class="wrap">
+    <h1>Daddy's Wallet</h1>
+    <p>Support · תמיכה</p>
+  </div>
+</header>
+<nav class="langbar"><div class="wrap">
+  <a href="#he">עברית</a><a href="#en">English</a>
+</div></nav>
+
+<main class="wrap">
+
+<!-- ====================================================================== HEBREW -->
+<section id="he" lang="he">
+  <h2>תמיכה</h2>
+
+  <p class="big">צריכים עזרה? כתבו לנו: <a href="mailto:metoraf.berserk@gmail.com">metoraf.berserk@gmail.com</a></p>
+  <p>ספרו מה קרה ובאיזה טלפון. עדיף לתאר במילים מאשר לשלוח צילום מסך של הדף של הילד.</p>
+
+  <h3>איך שומרים גיבוי?</h3>
+  <p>באפליקציה פותחים את התפריט, בוחרים „שמירת קובץ גיבוי” ושומרים את הקובץ במקום שתמצאו אחר כך.
+    אפשר להוסיף סיסמה שמצפינה את הקובץ, אבל אם תישכח, אין דרך לפתוח אותו. אחרי השמירה
+    כדאי לוודא שהקובץ באמת נמצא שם.</p>
+
+  <h3>החלפתי טלפון או שהוא אבד. מה עושים?</h3>
+  <p>מתקינים את האפליקציה בטלפון החדש, ובמסך הראשון בוחרים „שחזור מקובץ גיבוי”. השחזור עובד רק בטלפון שעוד
+    אין בו פנקס. הפנקס חוזר למצב שהיה בו כשהקובץ נשמר. אם אין קובץ גיבוי ואין גיבוי של הטלפון
+    שכולל את האפליקציה, לא נוכל לשחזר את הרישומים — אין לנו עותק שלהם.</p>
+
+  <h3>האם עובר כאן כסף אמיתי?</h3>
+  <p>לא. האפליקציה רק רושמת את הכסף שההורה מחזיק בשביל הילדים. אין חיבור לבנק, אין כרטיס אשראי
+    ואין העברות.</p>
+
+  <h3>מי רואה את הנתונים שלנו?</h3>
+  <p>הפנקס נשמר בטלפון שלכם, והאפליקציה לא שולחת אותו אלינו. הפרטים המלאים
+    ב<a href="../">מדיניות הפרטיות</a>.</p>
+</section>
+
+<!-- ====================================================================== ENGLISH -->
+<section id="en" lang="en">
+  <h2>Support</h2>
+
+  <p class="big">Need help? Email us: <a href="mailto:metoraf.berserk@gmail.com">metoraf.berserk@gmail.com</a></p>
+  <p>Tell us what happened and which phone you use. Please describe it in words rather than sending
+    a screenshot of your child's page.</p>
+
+  <h3>How do I save a backup?</h3>
+  <p>In the app, open the menu and choose "Save a backup file", then save it somewhere you will find it
+    again. You can add a passphrase that encrypts the file, but if it is forgotten the file cannot be
+    opened. After saving, check that the file is really there.</p>
+
+  <h3>I changed or lost my phone. What now?</h3>
+  <p>Install the app on the new phone and, on the first screen, choose "Restore from backup". Restoring works only on a
+    phone that does not have a ledger yet. The ledger comes back as it was when the file was saved.
+    Without a backup file or a phone backup that includes the app, we cannot recover the records —
+    we have no copy of them.</p>
+
+  <h3>Does real money move?</h3>
+  <p>No. The app only records the money a parent is holding for their children. There is no bank
+    connection, no card and no transfer.</p>
+
+  <h3>Who can see our data?</h3>
+  <p>The ledger is stored on your phone and the app does not send it to us. Full details are in the
+    <a href="../">privacy policy</a>.</p>
+</section>
+
+</main>
